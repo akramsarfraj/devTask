@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.siginIn {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.signIn-container {
+    width: 340px;
+    height: 100vh;
+    background: #F7F8F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.container-header {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 188px;
+    height: 69px;
+ 
+    text-align: left;
+    font: normal normal medium 28px/36px Rubik;
+    letter-spacing: 0px;
+    color: #1D2226;
+    opacity: 1;
+}
+
+.container-content {
+    margin-left: 20px;
+    width: 232px;
+    height: 48px;
+    text-align: left;
+    font: normal 450 normal 16px/20px Rubik;
+    letter-spacing: 0px;
+    color: #1D2226;
+    opacity: 0.6;
+}
+
+.btn-lgn {
+
+    text-align: center;
+    font: normal 450 normal 14px/15px Rubik;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 300px;
+    height: 46px;
+    border: none;
+    background: #CBCBCB 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.btn-lgn:active{
+  
+    box-shadow: 0px 0px 5px #b2c7d8 ;
+    background-color:#a899998e 0% 0% no-repeat padding-box;;
+}

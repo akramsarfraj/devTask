@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.homepage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.home-container {
+    width: 340px;
+    height: 100vh;
+    background: #F7F8F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.home-header {
+    width: 340px;
+    height: 68px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000007;
+    opacity: 1;
+}
+
+.home-header>h2 {
+    padding-top: 27px;
+
+    margin-left: 15px;
+
+    text-align: left;
+    font: normal 500 normal 18px/21px Rubik;
+    color: #1D2226;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+#img {
+
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    margin-left: 20px;
+}
+
+.profile-detail {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.home-content {
+    height: 160px;
+    border-bottom: dotted  #cddbea ;
+}
+
+.content {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    font: normal 500 normal 12px/19px Rubik;
+    color: #1D2226;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.name {
+    text-align: left;
+    font: normal normal medium 15px/19px Rubik;
+
+    color: #1D2226;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.email {
+    text-align: left;
+    font: normal normal normal 14px/19px Rubik;
+    letter-spacing: 0px;
+    color: #1D2226;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.icon-crm {
+    position: relative;
+    top: 20px;
+    right: 15px;
+}
